@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Nader Dabit",
+    "title": "Developer Advocate",
+    "company": "AWS Amplify",
+    "location": "Jackson, MS",
+    "bio": "Nader Dabit is a web and mobile developer who specializes in building cross-platform and cloud-enabled applications. At Amazon Web Services, he works with the client teams to help develop features and improve developer experience for client-side SDKs. Prior to working with AWS, Nader trained companies like Microsoft, Amazon, Salesforce, and American Express on how to build applications using the React and React Native frameworks through his company React Native Training.",
+    "image": "/images/curator1.svg",
+    "track": "Serverless",
+    "allLink": "See all the Serverless Speakers ",
+    "isFeatured": "",
+    "twitterURL": ""
+  },
+  {
+    "name": "Stephanie eckles",
+    "title": "Lead design systems dev",
+    "company": "",
+    "location": "San Francisco",
+    "bio": "Stephanie Eckles is the author of ModernCSS.dev which provides modern solutions to old CSS problems as in-depth tutorials. She's also the creator of StyleStage.dev which encourages contributors to restyle the same HTML to practice their modern CSS and web design skills. Steph has over 13 years of webdev experience, and currently leads the design system development for a large fintech enterprise and is an egghead instructor. She's an advocate for accessibility, scalable CSS, site performance, and Eleventy. Offline, she's mom to two girls and a cowboy corgi, and enjoys baking.",
+    "image": "/images/curator2.svg",
+    "track": "CSS",
+    "allLink": "See all the CSS Speakers ",
+    "isFeatured": "",
+    "twitterURL": ""
+  },
+  {
+    "name": "Shwawn Swyx Wang",
+    "title": "Senior Developer Advocate",
+    "company": "AWS",
+    "location": "San Francisco, California",
+    "bio": "Swyx has worked on Developer Experience and Developer Community at AWS and Netlify. He is a cofounder of the Svelte Society global series of meetups and previously helped run the 200k-strong /r/Reactjs subreddit.",
+    "image": "/images/curator3.svg",
+    "track": "Svelte",
+    "allLink": "See all the Svelte Speakers ",
+    "isFeatured": "",
+    "twitterURL": ""
+  },
+  {
+    "name": "BRIAN DOUGLAS",
+    "title": "Developer Advocate",
+    "company": "Github",
+    "location": "Oakland, CA",
+    "bio": "Brian Douglas is a Developer Advocate at GitHub where he works on increasing use of the GitHub’s platform specific features (Ask him about GitHub Actions!) through technical content distributed on the internet. In addition to that, Brian has a passion open source and loves mentoring new contributors through Open Sauced community",
+    "image": "/images/curator4.svg",
+    "track": "Open Source",
+    "allLink": "See all the Open Source Speakers ",
+    "isFeatured": "",
+    "twitterURL": ""
+  },
+  {
+    "name": "Tessa Mero",
+    "title": "Developer Advocate",
+    "company": "Cloudinary",
+    "location": "Seattle, WA",
+    "bio": "Tessa Mero is a Developer Advocate at Cloudinary. She regularly organizes meetups, such as APIs, Vue.js, JAMStack, and Developer Relations.  In the past, she has contributed to a leadership team for the open source Joomla! Project for 5 years, including the board of directors, leading the production team, as well as evangelizing Joomla as a public speaker. She organized a PHP conference and founded the API City Conference. She also is an avid career mentor and has helped countless developers become successful. In her free time, she enjoys cooking, camping, playing video games, fitness, and eating KBBQ.",
+    "image": "/images/curator5.svg",
+    "track": "Jamstack",
+    "allLink": "See all the jamstack Speakers ",
+    "isFeatured": "",
+    "twitterURL": ""
+  },
+  {
+    "name": "Jon Wong",
+    "title": "Developer Experience Engineer",
+    "company": "Coursera",
+    "location": "San Francisco, CA",
+    "bio": "Jon Wong is a staff software engineer at Coursera, working on the web architecture team. He spends his time thinking about GraphQL, developer experience, and how to make sure everyone knows about GitHub Actions. Ask him about building culture within companies and the Golden State Warriors!",
+    "image": "/images/curator6.svg",
+    "track": "GraphQL",
+    "allLink": "See all the GraphQL Speakers ",
+    "isFeatured": "",
+    "twitterURL": ""
+  },
+  {
+    "name": "Jen Looper",
+    "title": "Developer Advocate",
+    "company": "Microsoft",
+    "location": "Wellesley, MA",
+    "bio": "Tessa Mero is a Developer Advocate at Cloudinary. She regularly organizes meetups, such as APIs, Vue.js, JAMStack, and Developer Relations.  In the past, she has contributed to a leadership team for the open source Joomla! Project for 5 years, including the board of directors, leading the production team, as well as evangelizing Joomla as a public speaker. She organized a PHP conference and founded the API City Conference. She also is an avid career mentor and has helped countless developers become successful. In her free time, she enjoys cooking, camping, playing video games, fitness, and eating KBBQ.",
+    "image": "/images/curator7.svg",
+    "track": "Vue",
+    "allLink": "See all the Vue Speakers ",
+    "isFeatured": "",
+    "twitterURL": ""
+  },
+  {
+    "name": "Maria lamardo",
+    "title": "Sr. Accessibility Designer",
+    "company": "CVS Health",
+    "location": "North Carolina, USA",
+    "bio": "Maria Lamardo is a passionate Senior Accessibility Designer at CVS Health, Accessibility Consultant, International Speaker, Vue.js Community Partner, World Vue Founder, and organizer of multiple Meetups in her area. Maria’s passion for accessibility stems from her work as a BCaBA providing behavioral therapy for people with developmental disabilities for over 8 years.",
+    "image": "/images/curator8.svg",
+    "track": "Accessibility",
+    "allLink": "See all the GraphQL Speakers ",
+    "isFeatured": "",
+    "twitterURL": ""
+  },
+  {
+    "name": "Secret Curator",
+    "title": "Senior Hooks Operator",
+    "company": "AmazingBookSoft",
+    "location": "San Francisco, CA",
+    "bio": "Can you guess who our curator for React is?",
+    "image": "/images/silhouette.svg",
+    "track": "React",
+    "isFeatured": "",
+    "twitterURL": "twitter.com"
+  }
+]

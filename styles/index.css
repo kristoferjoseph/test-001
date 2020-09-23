@@ -1,0 +1,206 @@
+@import "/fonts/font.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+#__next {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-gray-100 font-blender h-full;
+}
+
+.custom-btn {
+    @apply text-black py-4 px-6 uppercase rounded-md text-xl font-extrabold bg-lightGreen-200 min-w-275;
+}
+
+.animate-btn {
+    @apply text-gray-400 py-4 px-6 uppercase border-2 border-gray-400 text-xl font-extrabold transition-all duration-300 relative;
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.animate-btn:focus {
+    @apply outline-none;
+}
+
+.animate-btn:hover {
+    @apply text-lightGreen-200;
+    background-position: left bottom;
+}
+
+.animate-btn:hover::after {
+    display: none;
+}
+
+.animate-btn::after {
+    content: "";
+    position: absolute;
+    background-color: #16ff11;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: rotate(-3deg);
+    transform-origin: bottom center;
+}
+
+.profile-card img {
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+}
+
+.profile-card:hover img {
+    filter: grayscale(0%);
+    transition: 0.3s ease-in-out;
+}
+
+.profile-card:hover h5 {
+    @apply text-lightGreen-200;
+    transition: 0.5s all;
+}
+
+.profile-card:hover p {
+    @apply opacity-100;
+    transition: 0.5s all;
+}
+
+.sponsor-img {
+    filter: grayscale(100%);
+}
+
+.sponsor-img:hover {
+    filter: grayscale(0%);
+}
+
+.filter-none {
+    filter: grayscale(0%) !important;
+}
+
+.delay-75s {
+    animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+}
+
+.delay-1s {
+    animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.delay-2s {
+    animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1880px) and (-webkit-min-device-pixel-ratio: 1) {
+    .logo img {
+        @apply w-260 mb-5 -mt-8;
+    }
+
+    .custom-btn {
+        @apply text-black py-2 px-4 uppercase border-none rounded-md text-xl font-extrabold bg-lightGreen-200;
+    }
+
+    .left-bar img,
+    .right-bar img {
+        @apply w-16;
+    }
+
+    .left-bar {
+        @apply -mt-24;
+    }
+
+    .right-bar {
+        @apply -translate-y-12;
+    }
+
+    .menu-btn {
+        @apply p-3;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 227dpi),
+    only screen and (min-resolution: 2dppx) {
+    .logo img {
+        @apply w-400 mb-10 -mt-12;
+    }
+    .custom-btn {
+        @apply text-black py-4 px-6 uppercase border-none rounded-md text-xl font-extrabold bg-lightGreen-200;
+    }
+
+    .left-bar img,
+    .right-bar img {
+        @apply w-auto;
+    }
+
+    .left-bar {
+        @apply -mt-10;
+    }
+
+    .right-bar {
+        @apply -translate-y-48;
+    }
+
+    .menu-btn {
+        @apply p-6;
+    }
+}
+
+.arrow-link {
+    @apply mt-5 text-lg font-bold border-l-4 border-lightGreen-200 pl-2 uppercase leading-6 text-black transition-all duration-300;
+    background: linear-gradient(to right, #16FF11 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.arrow-link:hover {
+    background-position: left bottom;
+}
+
+.arrow-link span {
+    display: inline-block;
+    transition: 0.3s ease-in;
+}
+
+.arrow-link:hover span {
+    transform: translateX(15px);
+}
+
+.animation-duration-500 {
+    animation-duration: 500ms;
+}
+
+.Typist .Cursor {
+    display: inline-block;
+}
+
+.Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
